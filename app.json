@@ -17,13 +17,20 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier":"com.arqui.app",
+      "config":{
+        "googleSignIn":{
+          "reservedClientId":"com.googleusercontent.apps.938419071147-d68253a5uhdbu7sr3uj16tvifpal9u5n"
+        }
+      }
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package":"com.arqui.app"
     },
     "web": {
       "favicon": "./assets/favicon.png"
